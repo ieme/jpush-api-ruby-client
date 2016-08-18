@@ -3,16 +3,16 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jpush/version'
 
-# Gem::Specification.new do |spec|
-#   spec.name          = "jpush"
-#   spec.version       = JPush::VERSION
-#   spec.authors       = ["JPush Offical"]
-#   spec.email         = ["support@jpush.cn"]
+ Gem::Specification.new do |spec|
+   spec.name          = "jpush"
+   spec.version       = JPush::VERSION
+   spec.authors       = ["JPush Offical"]
+   spec.email         = ["support@jpush.cn"]
 
-#   spec.summary       = %q{JPush's officially supported Ruby client library for accessing JPush APIs.}
-#   spec.description   = %q{JPush's officially supported Ruby client library for accessing JPush APIs. 极光推送官方支持的 Ruby 版本服务器端 SDK. 相应的 API 文档：http://docs.jpush.io/server/server_overview/ }
-#   spec.homepage      = "https://github.com/jpush/jpush-api-ruby-client"
-#   spec.license       = "MIT"
+   spec.summary       = %q{JPush's officially supported Ruby client library for accessing JPush APIs.}
+   spec.description   = %q{JPush's officially supported Ruby client library for accessing JPush APIs. 极光推送官方支持的 Ruby 版本服务器端 SDK. 相应的 API 文档：http://docs.jpush.io/server/server_overview/ }
+   spec.homepage      = "https://github.com/jpush/jpush-api-ruby-client"
+   spec.license       = "MIT"
 
 #   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
 #   # delete this section to allow pushing this gem to any host.
@@ -32,4 +32,4 @@ require 'jpush/version'
 #   spec.add_development_dependency "minitest"#, "~> 5.0"
 
 #   spec.required_ruby_version = '>= 2.2'
-# end
+ end
